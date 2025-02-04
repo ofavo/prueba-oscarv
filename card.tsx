@@ -64,7 +64,7 @@ const Card = () => {
                 keyExtractor={(item: any) => item.id.toString()}
                 renderItem={({ item }) => (
                   <TouchableOpacity style={styles.option} onPress={() => { setSelected(item.name); setOpen(false); }}>
-                    <Text style={styles.optionText}>{item.name+"Seleccionar"}</Text>
+                    <Text style={styles.optionText}>{item.name}</Text>
                   </TouchableOpacity>
                 )}
               />
